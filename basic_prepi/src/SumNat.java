@@ -6,8 +6,9 @@ public class SumNat {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
 
-        for(int num1 = n; num1 >0; num1--){
-            System.out.print(num1 +" ");
+           int sum = (n*(n+1)) /2;
+
+            System.out.println(sum);
         }
     }
-}
+
